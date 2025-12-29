@@ -45,8 +45,6 @@ progress::-webkit-progress-value {
 .cardContent-shadow, 
 .itemDetailImage, 
 .cardOverlayButton-hover,
-.cardImageContainer,
-.cardPadder,
 .listItemImage,
 .listItemImageButton,
 .listItemButton,
@@ -110,4 +108,9 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 #userProfilesPage .cardImage, #userProfilesPage .cardContent {
     border-radius: var(--rounding) var(--rounding) 0 0 !important;
+}
+
+.cardImageContainer,
+.cardPadder{ 
+  border-radius: 8px !important;
 }

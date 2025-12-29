@@ -291,7 +291,7 @@ There are some manual options you can define if you want, after the import lines
 
 /*Accent and roundingd*/
 :root {--accent: 98, 121, 205;}
-:root {--rounding: 12px;}
+:root {--rounding: 1px;}
 ```
 
 <br />

@@ -1,0 +1,93 @@
+:root {--rounding: 12px !important;}
+
+
+
+@media (max-width: 50em) {
+    .videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+        display: inline-flex !important;
+    }
+}
+
+.layout-mobile .btnPause{
+    display: inline-flex !important;
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    padding: 1em;
+    overflow: inherit;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 100% !important;
+    transform: translateX(-50%)  translateY(-50%) !important;
+    margin: 0 !important;
+}
+
+.layout-mobile .btnRewind {
+    display: inline-flex !important;
+    position: fixed;
+    top: 50% !important;
+    left: 35% !important;
+    padding: 1em;
+    overflow: inherit;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 100% !important;
+    transform: translateX(-50%)  translateY(-50%) !important;
+    /*width: 1.5em !important;
+    height: 1.5em !important;*/
+    margin: 0 !important;
+}
+
+.layout-mobile .btnFastForward{
+    display: inline-flex !important;
+    position: fixed;
+    top: 50% !important;
+    left: 65% !important;
+    padding: 1em;
+    overflow: inherit;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 100% !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+    /*width: 1.5em !important;
+    height: 1.5em !important;*/
+    margin: 0 !important;
+}
+
+.videoOsdBottom {
+    padding-bottom: 0.75em;
+}
+
+#videoOsdPage .material-icons { 
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.osdHeader .material-icons{
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.osdHeader .pageTitle{ 
+    color: rgba(255, 255, 255, 1) !important
+}
+
+.osdTextContainer{ 
+    color: rgba(255, 255, 255, 1) !important
+}
+
+.mediaInfoCriticRatingFresh::after{ 
+    content: "%";
+}
+
+.videoOsdBottom .btnUserRating.autoSize.paper-icon-button-light {
+    display: none;
+}
+
+.backgroundContainer {
+    /*background: linear-gradient(126deg, rgba(35,142,95,1) 0%, rgba(0,11,37,1) 100%) !important;*/
+    background: -moz-linear-gradient(145deg, rgba(10,20,25,1) 43%, rgba(8,31,35,1) 79%, rgba(5,45,49,1) 92%, rgba(0,64,67,1) 100%) !important;
+    background: -webkit-linear-gradient(145deg, rgba(10,20,25,1) 43%, rgba(8,31,35,1) 79%, rgba(5,45,49,1) 92%, rgba(0,64,67,1) 100%) !important;
+    background: linear-gradient(145deg, rgba(10,20,25,1) 43%, rgba(8,31,35,1) 79%, rgba(5,45,49,1) 92%, rgba(0,64,67,1) 100%) !important;
+    /*filter: blur(10px);*/
+    background-size: cover;
+  }
+
+  /* Hide objects*/
+
+ /*TAGS*/ .itemTags{ display:none;}

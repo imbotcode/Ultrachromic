@@ -1,0 +1,157 @@
+/*Netflix style buttons*/
+
+.layout-desktop .detailPagePrimaryContainer.padded-left.padded-right {
+  display: block !important;
+  height: auto;
+  z-index: 1 !important;
+}
+
+#itemDetailPage .mainDetailButtons {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  z-index: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 5px 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+#itemDetailPage .detailButton {
+  position: relative;
+  width: calc(50% - 4px);
+  /*backdrop-filter: blur(15px);
+  backdrop-filter: -webkit-blur(15px);*/
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: flex-start;
+  flex-flow: row;
+  flex-wrap: wrap;
+  font-size: 90%;
+  flex-shrink: 1;
+  color: rgb(255, 255, 255) !important;
+}
+
+@media (min-width: 30em){
+  #itemDetailPage .mainDetailButtons {
+    width: 20em;
+  }
+}
+
+@media (max-width: 32em){
+  #itemDetailPage .mainDetailButtons{
+    width: 100% !important;
+  }  
+}
+
+.layout-mobile #itemDetailPage .mainDetailButtons {
+  width: auto !important;
+  max-width: 400px;
+}
+
+
+@media (max-width: 16em){
+  #itemDetailPage .detailButton {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 16em){
+  #itemDetailPage .btnPlay::after {
+    content: " Play";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnResume::after {
+    content: " Resume";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnReplay::after {
+    content: " Replay";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnDownload::after {
+    content: " Download";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnPlayTrailer::after {
+    content: " Trailer";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnInstantMix::after {
+    content: " Mix";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnShuffle::after {
+    content: " Shuffle";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnCancelSeriesTimer::after {
+    content: " Cancel Series";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnCancelTimer::after {
+    content: " Stop Recording";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnPlaystate::after {
+    content: " Watched";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnUserRating::after {
+    content: " Favourite";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnSplitVersions::after {
+    content: " Split";
+    white-space: pre;
+  }
+
+  #itemDetailPage .btnMoreCommands::after {
+    content: " More";
+    white-space: pre;
+  }
+}
+
+#itemDetailPage .btnPlay,
+#itemDetailPage .btnResume {
+  width: calc(100%);
+  flex-shrink: 1;
+  background: rgb(var(--accent)) !important;
+  text-shadow: none;
+  flex-flow: row;
+  font-size: 150%;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.layout-desktop #itemDetailPage .btnPlay:hover,
+.layout-desktop #itemDetailPage .btnResume:hover,
+.layout-desktop #itemDetailPage .btnDownload:hover,
+.layout-desktop #itemDetailPage .btnPlayTrailer:hover,
+.layout-desktop #itemDetailPage .btnInstantMix:hover,
+.layout-desktop #itemDetailPage .btnShuffle:hover,
+.layout-desktop #itemDetailPage .btnShuffle:hover,
+.layout-desktop #itemDetailPage .btnCancelSeriesTimer:hover,
+.layout-desktop #itemDetailPage .btnCancelTimer:hover,
+.layout-desktop #itemDetailPage .btnPlaystate:hover,
+.layout-desktop #itemDetailPage .btnUserRating:hover,
+.layout-desktop #itemDetailPage .btnSplitVersions:hover,
+.layout-desktop #itemDetailPage .btnMoreCommands:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.layout-desktop #itemDetailPage .detailButton:hover {
+  transform: scale(1.03) !important;
+}
+/*END*/

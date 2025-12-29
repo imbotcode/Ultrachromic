@@ -199,11 +199,11 @@ h4,
 
 /*Theme media player*/
 .videoOsdBottom {
-    background: rgba(210,210,210,.72);
+  background: linear-gradient(0deg,hsla(0,0%,6%,.75),hsla(0,0%,6%,0));
     padding-top: 0;
 }
 .skinHeader-withBackground.osdHeader {
-    background: rgba(255,255,255,.7) !important;
+    background: linear-gradient(0deg,hsla(0,0%,6%,0), hsla(0,0%,6%,.75)) !important;
     height: 5em;
 }
 .mdl-slider-background-flex {
