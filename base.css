@@ -1,6 +1,10 @@
 :root {--indicator: 0, 164, 220;}
 :root {--selection: 0, 164, 220;}
 
+.css-4yt2of {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .emby-textarea {
   font-family: monospace;
   font-size: 10pt;
@@ -225,4 +229,10 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .formDialogHeader-clear,
 .innerCardFooterClear {
     background-color: transparent !important;
+}
+
+/*Theme slider marker style*/
+.sliderMarker {
+  width: 3px;
+  border-radius: 2px;
 }

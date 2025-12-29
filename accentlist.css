@@ -20,7 +20,8 @@ a[data-role="button"]:hover {
   background: linear-gradient(140deg,rgb(var(--accent)),#111) !important;
 }
 
-.navMenuOption-selected {
+.navMenuOption-selected,
+.css-17c09up.Mui-selected {
   color: rgba(var(--accent));
 }
 .mdl-slider-background-lower {
@@ -33,7 +34,8 @@ progress::-moz-progress-bar {
 progress::-webkit-progress-value {
   background-color: rgba(var(--accent),0.75);
 }
-.taskProgressInner {
+.taskProgressInner,
+.sliderMarker.watched {
   background: rgba(var(--accent),0.75) !important;
 }
 
@@ -78,7 +80,8 @@ progress::-webkit-progress-value {
 #itemDetailPage .button-link {color: inherit !important;}
 
 .navMenuOption:hover,
-.actionSheetMenuItem:hover {
+.actionSheetMenuItem:hover,
+.css-17c09up:hover {
   background-color: rgba(var(--accent),0.5) !important;
 }
 
@@ -115,4 +118,8 @@ progress::-webkit-progress-value {
 .syncPlayIconCircle {
   color: rgba(var(--accent),1) !important;
   text-shadow: none !important;
+}
+
+.css-4yt2of {
+  border-right: 1px solid rgba(var(--accent), 0.12);
 }

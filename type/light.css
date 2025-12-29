@@ -88,7 +88,7 @@ a[data-role="button"] {
 
 /*Login background*/
 #loginPage {
-  background: url(https://imgur.com/S3WiZIM.png) !important;
+  background: url(https://raw.githubusercontent.com/CTalvio/Ultrachromic/main/assets/background.png) !important;
   background-size: cover !important;
 }
 
@@ -199,11 +199,11 @@ h4,
 
 /*Theme media player*/
 .videoOsdBottom {
-  background: linear-gradient(0deg,hsla(0,0%,6%,.75),hsla(0,0%,6%,0));
+    background: rgba(210,210,210,.72);
     padding-top: 0;
 }
 .skinHeader-withBackground.osdHeader {
-    background: linear-gradient(0deg,hsla(0,0%,6%,0), hsla(0,0%,6%,.75)) !important;
+    background: rgba(255,255,255,.7) !important;
     height: 5em;
 }
 .mdl-slider-background-flex {

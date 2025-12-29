@@ -1,4 +1,5 @@
 /*This file contains color and style changes for the dark theme type*/
+:root {--accent: 255, 255, 255;}
 :root {--selection: 120, 120, 120;}
 
 .transcodingProgress > div, .itemProgressBarForeground {
@@ -109,7 +110,7 @@ progress::-webkit-progress-value {
 
 /*Login background*/
 #loginPage {
-  background: url(https://i.imgur.com/9vL4iNf.png) !important; 
+  background: url(https://raw.githubusercontent.com/CTalvio/Ultrachromic/main/assets/background.png) !important;
   background-size: cover !important;
 }
 
